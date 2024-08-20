@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --background: hsl(30, 54%, 90%);
+    --blanco:  hsl(0, 0%, 100%);
+    --violeta:hsl(30, 18%, 87%);
+    --color-text: hsl(30, 10%, 34%);
+    --color-Title: hsl(24, 5%, 18%);
+    --marron: hsl(14, 45%, 36%);
+    --morado: hsl(332, 51%, 32%);
+    --rosa: hsl(330, 100%, 98%);
+
+    --font-titles:"Young Serif", serif;
+    --font-text: "Outfit", sans-serif;    
+}
+
+.font_title{
+    font-family: var(--font-titles);
+}
+span{
+    color: var(--color-text);
+    font-weight: 700;
+}
+body{
+    background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    
+}
+
+section .subtitles{
+    font-family: var(--font-titles);
+    color:var(--marron);
+    margin-bottom: 1.2rem;
+}
+.menu_card{
+    width: 100vh;
+    height: auto;
+    border-radius: 2rem;
+}
+#card_mobile{
+    
+    font-weight: 400;
+    font-family: var(--font-text);
+    color:var(--color-text);
+    background-color: var(--blanco);
+    line-height: 1.5rem;
+    padding: 0 4rem 2rem;
+    font-size: 1.3rem;
+}
+
+img{
+    padding: 3rem ;
+    border-radius: 5rem;
+}
+.title{
+    color:black;
+}
+ol li {
+    margin-bottom: 1rem;
+
+}
+.list{
+    list-style-type: disc;
+}
+li::marker{
+    color: var(--marron);
+}
+li.steps_preparation::marker{
+    color: var(--morado);
+}
+ol li.steps::marker{
+    font-weight: 700;
+}
+#preparation{
+    background-color: var(--rosa);
+}
+.title-prep{
+    color:var(--morado);
+    font-family: var(--marron);
+    font-weight: 700;
+}
+
+ol li{
+    padding-left: 1rem;
+}
+
+td.first_colum{
+    color:var(--color-text) !important;
+}
+td.second_colum{
+    color: var(--marron)!important;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    margin: 0;
+  }
+  .menu_card{
+    width: 100%;
+    height: auto;
+}
+#card_mobile{
+    width: 100%;
+    padding: 2rem;
+    border-radius: 0;
+    font-size: 100%;
+}
+img{
+    padding: 0;
+    border-radius: 0;
+}
+}
+
+
