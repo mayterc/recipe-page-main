@@ -42,7 +42,7 @@ section .subtitles{
     margin-bottom: 1.2rem;
 }
 .menu_card{
-    width: 100vh;
+    width: 80vh;
     height: auto;
     border-radius: 2rem;
 }
@@ -52,9 +52,10 @@ section .subtitles{
     font-family: var(--font-text);
     color:var(--color-text);
     background-color: var(--blanco);
-    line-height: 1.5rem;
-    padding: 0 4rem 2rem;
-    font-size: 0.8rem;
+    line-height: 1.2rem;
+    padding: 0 2rem 1rem;
+    font-size: 1.2rem;
+    border-radius: 2rem;
 }
 
 img{
@@ -65,7 +66,7 @@ img{
     color:black;
 }
 ol li {
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 
 }
 .list{
